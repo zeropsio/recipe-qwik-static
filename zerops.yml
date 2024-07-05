@@ -4,8 +4,9 @@ zerops:
       base: nodejs@20
       buildCommands:
         - pnpm i
-        - pnpm build.server
+        - pnpm build
       deployFiles:
+        - public       
         - dist/~
     run:
       base: static
