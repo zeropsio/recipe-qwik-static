@@ -6,6 +6,7 @@ zerops:
         - pnpm i
         - pnpm build
       deployFiles:
+        - public       
         - dist/~
     run:
       base: static
