@@ -7,7 +7,6 @@ export default component$(() => {
   return (
     <>
       <Content />
-      {/* <Starter /> */}
     </>
   );
 });

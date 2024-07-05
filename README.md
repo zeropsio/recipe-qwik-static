@@ -34,7 +34,7 @@ If you want to modify your existing Qwik app to efficiently run on Zerops, follo
 
 1. Install the necessary adapter with:
    `sh
-    npm run qwik add static
+    pnpm qwik add static
     `
    Running this command will make the following changes
 
@@ -46,3 +46,9 @@ Now, just add the [zerops.yml](https://github.com/zeropsio/recipe-qwik-static/bl
 <br/>
 
 Need help setting your project up? Join [Zerops Discord community](https://discord.com/invite/WDvCZ54).
+
+## Static Site Generator (Node.js)
+
+```shell
+pnpm build.server
+```
